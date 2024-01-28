@@ -1,0 +1,83 @@
+(footprint "SC70" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<h3>SC-70</h3>\n<p>Specifications:\n<ul><li>Pin count: 5</li>\n</ul></p>\n<p><a href=”https://www.exar.com/content/document.ashx?id=654”>Datasheet referenced for footprint</a></p>\n<p>Example device(s):\n<ul><li>V_REG_SP6214</li>\n</ul></p>")
+  (fp_text reference "REF**" (at -1.27 0 90) (layer "F.SilkS")
+      (effects (font (size 0.48768 0.48768) (thickness 0.12192)) (justify bottom))
+    (tstamp 9b41aa32-9ecf-410e-8301-e8e38464ba6e)
+  )
+  (fp_text value "SC70" (at 1.27 0 90) (layer "F.Fab")
+      (effects (font (size 0.48768 0.48768) (thickness 0.12192)) (justify top))
+    (tstamp 2ed70dd1-331b-4edd-876f-53de8036bac3)
+  )
+  (fp_poly
+    (pts
+      (xy -0.85 -0.45)
+      (xy -0.45 -0.45)
+      (xy -0.45 -1.2)
+      (xy -0.85 -1.2)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Paste") (tstamp 37c14325-d596-4226-9395-f9fed1199e1a))
+  (fp_poly
+    (pts
+      (xy -0.8382 1.1684)
+      (xy -0.508 1.1684)
+      (xy -0.508 0.4826)
+      (xy -0.8382 0.4826)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Paste") (tstamp 1d6748c1-7d19-414e-9477-02738232a8a4))
+  (fp_poly
+    (pts
+      (xy -0.1651 1.1684)
+      (xy 0.1651 1.1684)
+      (xy 0.1651 0.4826)
+      (xy -0.1651 0.4826)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Paste") (tstamp c06a0648-f4dd-4d8a-bc1e-270c8c565a15))
+  (fp_poly
+    (pts
+      (xy 0.45 -0.45)
+      (xy 0.85 -0.45)
+      (xy 0.85 -1.2)
+      (xy 0.45 -1.2)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Paste") (tstamp c35566d9-e56a-4af0-8d41-b647fb9f6e2b))
+  (fp_poly
+    (pts
+      (xy 0.508 1.1684)
+      (xy 0.8382 1.1684)
+      (xy 0.8382 0.4826)
+      (xy 0.508 0.4826)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Paste") (tstamp 6697344a-20f5-4771-9a85-20823e126abb))
+  (fp_line (start -1 -0.625) (end 1 -0.625)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp f9fc40a1-18f2-4685-8064-9602052a008d))
+  (fp_line (start -1 0.625) (end -1 -0.625)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 6e4fcf46-9d36-4545-a294-c1a933c2a211))
+  (fp_line (start -1 0.625) (end 1 0.625)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 1204a5b6-18db-4f2e-885f-909163d3cec9))
+  (fp_line (start 1 -0.625) (end 1 0.625)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 1a358aee-922c-4a83-b0c5-b75d8659d049))
+  (fp_line (start -1 -0.625) (end 1 -0.625)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 9dae1ddd-7a6a-45d7-8bd4-cc808ba1f562))
+  (fp_line (start -1 0.625) (end -1 -0.625)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp c24c9803-899e-48f1-8140-89900e72c770))
+  (fp_line (start -1 0.625) (end 1 0.625)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 205fc905-559a-443c-9bc1-291c2b282700))
+  (fp_line (start 1 -0.625) (end 1 0.625)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp a422ee5c-4855-413d-9baa-5d023011fdcf))
+  (pad "1" smd rect (at -0.65 0.825) (size 0.4 0.75) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 0) (tstamp 758b96f5-7408-470b-bd6f-610576490aa0))
+  (pad "2" smd rect (at 0 0.825) (size 0.4 0.75) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 0) (tstamp 94ba4f79-89bd-4891-bc96-f6a33957a871))
+  (pad "3" smd rect (at 0.65 0.825) (size 0.4 0.75) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 0) (tstamp cb553846-f88c-4310-8eda-b718cabaa55f))
+  (pad "4" smd rect (at 0.65 -0.825) (size 0.4 0.75) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 0) (tstamp e0b033c2-4b53-4de4-858c-de3ec02ba699))
+  (pad "5" smd rect (at -0.65 -0.825) (size 0.4 0.75) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 0) (tstamp d2301351-42f8-4c0b-82ca-5642cf79da26))
+)
