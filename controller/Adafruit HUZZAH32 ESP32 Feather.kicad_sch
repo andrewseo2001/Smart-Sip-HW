@@ -4302,7 +4302,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 119.38 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05d94674-8884-4314-a9b4-026434458985)
-    (property "Reference" "#U$4" (at 119.38 58.42 0)
+    (property "Reference" "#U$04" (at 119.38 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 117.856 60.96 0)
@@ -4318,7 +4318,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$4") (unit 1)
+          (reference "#U$04") (unit 1)
         )
       )
     )
@@ -4556,7 +4556,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 187.96 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f39a744-2a0b-4546-a54e-dc00781c37f4)
-    (property "Reference" "#U$11" (at 187.96 83.82 0)
+    (property "Reference" "#U$011" (at 187.96 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 186.436 86.36 0)
@@ -4572,7 +4572,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$11") (unit 1)
+          (reference "#U$011") (unit 1)
         )
       )
     )
@@ -4581,7 +4581,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 134.62 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22fdaa7e-1e5c-4c9d-a32c-0dcc6e76ab01)
-    (property "Reference" "#U$41" (at 134.62 99.06 0)
+    (property "Reference" "#U$041" (at 134.62 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.096 101.6 0)
@@ -4597,7 +4597,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$41") (unit 1)
+          (reference "#U$041") (unit 1)
         )
       )
     )
@@ -4638,7 +4638,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 152.4 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 272191a8-a744-45a8-8dce-4e41fb5b5939)
-    (property "Reference" "#U$42" (at 152.4 58.42 0)
+    (property "Reference" "#U$042" (at 152.4 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 150.876 60.96 0)
@@ -4654,7 +4654,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$42") (unit 1)
+          (reference "#U$042") (unit 1)
         )
       )
     )
@@ -4663,7 +4663,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_3.3V") (at 119.38 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 297c7c43-a9ae-497a-bb76-1f0515e9a140)
-    (property "Reference" "#U$2" (at 119.38 45.72 0)
+    (property "Reference" "#U$02" (at 119.38 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 117.856 44.704 0)
@@ -4679,7 +4679,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$2") (unit 1)
+          (reference "#U$02") (unit 1)
         )
       )
     )
@@ -4767,7 +4767,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:supply1_GND") (at 264.16 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 342e2728-01e4-48c9-b798-ad00b42f95b6)
-    (property "Reference" "#GND4" (at 264.16 124.46 0)
+    (property "Reference" "#GND04" (at 264.16 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.62 127 0)
@@ -4783,7 +4783,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#GND4") (unit 1)
+          (reference "#GND04") (unit 1)
         )
       )
     )
@@ -4792,7 +4792,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 261.62 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 366ec69b-9e0f-45b0-8666-4a51a0c57ffd)
-    (property "Reference" "#U$1" (at 261.62 86.36 0)
+    (property "Reference" "#U$01" (at 261.62 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.096 88.9 0)
@@ -4808,7 +4808,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$1") (unit 1)
+          (reference "#U$01") (unit 1)
         )
       )
     )
@@ -4817,7 +4817,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_VBAT") (at 104.14 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39c10de2-2a43-415d-94db-ee65c7ef5515)
-    (property "Reference" "#U$16" (at 104.14 40.64 0)
+    (property "Reference" "#U$016" (at 104.14 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBAT" (at 102.616 39.624 0)
@@ -4833,7 +4833,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$16") (unit 1)
+          (reference "#U$016") (unit 1)
         )
       )
     )
@@ -4842,7 +4842,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_VBAT") (at 43.18 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ac8a1dd-57a3-48aa-b957-8024e1944157)
-    (property "Reference" "#U$21" (at 43.18 25.4 0)
+    (property "Reference" "#U$021" (at 43.18 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBAT" (at 41.656 24.384 0)
@@ -4858,7 +4858,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$21") (unit 1)
+          (reference "#U$021") (unit 1)
         )
       )
     )
@@ -4920,7 +4920,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 58.42 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 408553c0-8c8a-4f9e-afb5-705c7b4e3632)
-    (property "Reference" "#U$30" (at 58.42 60.96 0)
+    (property "Reference" "#U$030" (at 58.42 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 56.896 63.5 0)
@@ -4936,7 +4936,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$30") (unit 1)
+          (reference "#U$030") (unit 1)
         )
       )
     )
@@ -4945,7 +4945,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_VBAT") (at 175.26 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 478ba480-50b3-446a-96d3-ed5e328ea99a)
-    (property "Reference" "#U$20" (at 175.26 114.3 0)
+    (property "Reference" "#U$020" (at 175.26 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBAT" (at 173.736 113.284 0)
@@ -4961,7 +4961,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$20") (unit 1)
+          (reference "#U$020") (unit 1)
         )
       )
     )
@@ -5072,7 +5072,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 27.94 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62e1805c-5551-41a1-94cb-1a3d672d2ace)
-    (property "Reference" "#U$25" (at 27.94 60.96 0)
+    (property "Reference" "#U$025" (at 27.94 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 26.416 63.5 0)
@@ -5088,7 +5088,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$25") (unit 1)
+          (reference "#U$025") (unit 1)
         )
       )
     )
@@ -5097,7 +5097,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 81.28 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 695b461d-bbff-4d8a-bbf6-dcbfd2560799)
-    (property "Reference" "#U$29" (at 81.28 60.96 0)
+    (property "Reference" "#U$029" (at 81.28 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 79.756 63.5 0)
@@ -5113,7 +5113,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$29") (unit 1)
+          (reference "#U$029") (unit 1)
         )
       )
     )
@@ -5154,7 +5154,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_VBUS") (at 27.94 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c04f1d2-3391-465a-8cfe-57fc454c9728)
-    (property "Reference" "#U$3" (at 27.94 27.94 0)
+    (property "Reference" "#U$03" (at 27.94 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 26.416 26.924 0)
@@ -5170,7 +5170,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$3") (unit 1)
+          (reference "#U$03") (unit 1)
         )
       )
     )
@@ -5287,7 +5287,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 48.26 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a776a61-c208-46f1-bbdc-148fb77d1b20)
-    (property "Reference" "#U$27" (at 48.26 60.96 0)
+    (property "Reference" "#U$027" (at 48.26 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 46.736 63.5 0)
@@ -5303,7 +5303,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$27") (unit 1)
+          (reference "#U$027") (unit 1)
         )
       )
     )
@@ -5312,7 +5312,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_3.3V") (at 238.76 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7bd2c240-3e66-4fc1-bd97-ab68556a2b29)
-    (property "Reference" "#U$6" (at 238.76 109.22 0)
+    (property "Reference" "#U$06" (at 238.76 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 237.236 108.204 0)
@@ -5328,7 +5328,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$6") (unit 1)
+          (reference "#U$06") (unit 1)
         )
       )
     )
@@ -5363,7 +5363,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:supply1_GND") (at 142.24 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e7c274c-6670-4036-8d75-10601f2982f5)
-    (property "Reference" "#GND6" (at 142.24 60.96 0)
+    (property "Reference" "#GND06" (at 142.24 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 63.5 0)
@@ -5379,7 +5379,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#GND6") (unit 1)
+          (reference "#GND06") (unit 1)
         )
       )
     )
@@ -5388,7 +5388,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 104.14 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 932fdfff-a23d-4a9a-b8fd-21a70aa9b81f)
-    (property "Reference" "#U$33" (at 104.14 185.42 0)
+    (property "Reference" "#U$033" (at 104.14 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.616 187.96 0)
@@ -5404,7 +5404,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$33") (unit 1)
+          (reference "#U$033") (unit 1)
         )
       )
     )
@@ -5437,7 +5437,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_VBUS") (at 30.48 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e56d0be-9793-4417-9d42-46d2c16ff8a8)
-    (property "Reference" "#U$38" (at 30.48 154.94 0)
+    (property "Reference" "#U$038" (at 30.48 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 28.956 153.924 0)
@@ -5453,7 +5453,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$38") (unit 1)
+          (reference "#U$038") (unit 1)
         )
       )
     )
@@ -5462,7 +5462,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_3.3V") (at 193.04 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f06b62c-b3e6-4386-b5c1-4f1242dc79c5)
-    (property "Reference" "#U$24" (at 193.04 45.72 0)
+    (property "Reference" "#U$024" (at 193.04 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 191.516 44.704 0)
@@ -5478,7 +5478,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$24") (unit 1)
+          (reference "#U$024") (unit 1)
         )
       )
     )
@@ -5593,7 +5593,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 88.9 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b36a27bb-cf48-46da-b654-d6c26d44505d)
-    (property "Reference" "#U$28" (at 88.9 60.96 0)
+    (property "Reference" "#U$028" (at 88.9 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.376 63.5 0)
@@ -5609,7 +5609,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$28") (unit 1)
+          (reference "#U$028") (unit 1)
         )
       )
     )
@@ -5618,7 +5618,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_VBAT") (at 111.76 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b820a81f-a263-41b3-ab15-fb3198478462)
-    (property "Reference" "#U$39" (at 111.76 154.94 0)
+    (property "Reference" "#U$039" (at 111.76 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBAT" (at 110.236 153.924 0)
@@ -5634,7 +5634,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$39") (unit 1)
+          (reference "#U$039") (unit 1)
         )
       )
     )
@@ -5643,7 +5643,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_3.3V") (at 88.9 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b943dd10-9226-4531-ae40-0985fe9302b0)
-    (property "Reference" "#U$10" (at 88.9 38.1 0)
+    (property "Reference" "#U$010" (at 88.9 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 87.376 37.084 0)
@@ -5659,7 +5659,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$10") (unit 1)
+          (reference "#U$010") (unit 1)
         )
       )
     )
@@ -5668,7 +5668,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_3.3V") (at 68.58 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba0499db-1b00-4f7b-bfea-6b858e39a615)
-    (property "Reference" "#U$26" (at 68.58 71.12 0)
+    (property "Reference" "#U$026" (at 68.58 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 67.056 70.104 0)
@@ -5684,7 +5684,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$26") (unit 1)
+          (reference "#U$026") (unit 1)
         )
       )
     )
@@ -5693,7 +5693,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_VBUS") (at 170.18 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdfcc04a-1d99-44eb-ba91-259b16e9b4e5)
-    (property "Reference" "#U$19" (at 170.18 119.38 0)
+    (property "Reference" "#U$019" (at 170.18 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 168.656 118.364 0)
@@ -5709,7 +5709,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$19") (unit 1)
+          (reference "#U$019") (unit 1)
         )
       )
     )
@@ -5718,7 +5718,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 142.24 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf9f615c-bbf9-43c0-b55e-e715ec71233d)
-    (property "Reference" "#U$8" (at 142.24 160.02 0)
+    (property "Reference" "#U$08" (at 142.24 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 161.544 0)
@@ -5734,7 +5734,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$8") (unit 1)
+          (reference "#U$08") (unit 1)
         )
       )
     )
@@ -5743,7 +5743,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_3.3V") (at 142.24 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c076a618-8b25-43e5-b038-1236d415c048)
-    (property "Reference" "#U$5" (at 142.24 25.4 0)
+    (property "Reference" "#U$05" (at 142.24 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 140.716 24.384 0)
@@ -5759,7 +5759,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$5") (unit 1)
+          (reference "#U$05") (unit 1)
         )
       )
     )
@@ -5800,7 +5800,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 68.58 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cddb73ce-a469-4cc8-99f5-f3dc6cd92535)
-    (property "Reference" "#U$37" (at 68.58 144.78 0)
+    (property "Reference" "#U$037" (at 68.58 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.056 147.32 0)
@@ -5816,7 +5816,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$37") (unit 1)
+          (reference "#U$037") (unit 1)
         )
       )
     )
@@ -5896,7 +5896,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_VBAT") (at 134.62 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfe71852-a66b-4296-a916-16703b9a8d5e)
-    (property "Reference" "#U$40" (at 134.62 73.66 0)
+    (property "Reference" "#U$040" (at 134.62 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBAT" (at 133.096 72.644 0)
@@ -5912,7 +5912,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$40") (unit 1)
+          (reference "#U$040") (unit 1)
         )
       )
     )
@@ -5921,7 +5921,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_VBUS") (at 190.5 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dafe7168-e95e-4cd5-b8c4-374380f209c1)
-    (property "Reference" "#U$18" (at 190.5 63.5 0)
+    (property "Reference" "#U$018" (at 190.5 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 188.976 62.484 0)
@@ -5937,7 +5937,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$18") (unit 1)
+          (reference "#U$018") (unit 1)
         )
       )
     )
@@ -5946,7 +5946,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 198.12 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db5b7ab3-405a-44ca-a0c9-f86905cccc70)
-    (property "Reference" "#U$17" (at 198.12 63.5 0)
+    (property "Reference" "#U$017" (at 198.12 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.596 66.04 0)
@@ -5962,7 +5962,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$17") (unit 1)
+          (reference "#U$017") (unit 1)
         )
       )
     )
@@ -6021,7 +6021,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 99.06 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8bf1b50-0319-47b0-b30f-e81ace7ec098)
-    (property "Reference" "#U$36" (at 99.06 185.42 0)
+    (property "Reference" "#U$036" (at 99.06 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.536 187.96 0)
@@ -6037,7 +6037,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$36") (unit 1)
+          (reference "#U$036") (unit 1)
         )
       )
     )
@@ -6231,7 +6231,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 104.14 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8ad37cd-373a-46b2-a1cf-36df8856e217)
-    (property "Reference" "#U$22" (at 104.14 60.96 0)
+    (property "Reference" "#U$022" (at 104.14 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.616 63.5 0)
@@ -6247,7 +6247,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$22") (unit 1)
+          (reference "#U$022") (unit 1)
         )
       )
     )
@@ -6256,7 +6256,7 @@
   (symbol (lib_id "Adafruit HUZZAH32 ESP32 Feather-eagle-import:microbuilder_GND") (at 203.2 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe2ebab1-18c6-44e3-acec-09fdced9c756)
-    (property "Reference" "#U$12" (at 203.2 63.5 0)
+    (property "Reference" "#U$012" (at 203.2 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.676 66.04 0)
@@ -6272,7 +6272,7 @@
     (instances
       (project "Adafruit HUZZAH32 ESP32 Feather"
         (path "/3caf2dbf-4164-474d-8386-d91904ea6b76"
-          (reference "#U$12") (unit 1)
+          (reference "#U$012") (unit 1)
         )
       )
     )
