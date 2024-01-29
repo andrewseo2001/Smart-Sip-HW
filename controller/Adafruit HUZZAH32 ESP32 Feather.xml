@@ -1,0 +1,2341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\andre\OneDrive\Desktop\Smart_sip\Smart-Sip-HW\controller\Adafruit HUZZAH32 ESP32 Feather.kicad_sch</source>
+    <date>2024-01-29 12:56:19 AM</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Adafruit HUZZAH32 ESP32 Feather.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ICM.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HX_711.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:0805-NO</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b3ac386-d71f-43c3-a042-60fcd3416160</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:0805-NO</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7b634c2-a0a5-4082-9c52-69175d1e1cae</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10µF</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:0805-NO</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3f9928d-09e5-4d94-8a13-90dd5b59b976</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:0603-NO</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_CAP_CERAMIC0603_NO" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51582028-0d3c-489f-9bd0-e389001c71eb</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10µF</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:0805-NO</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a438bc0-0c4d-4a0d-b494-c11b48f15404</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:0603-NO</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_CAP_CERAMIC0603_NO" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>febc83e7-8230-421a-8e69-302e6f6f822c</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10µF</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:0805-NO</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f1ddd81-4884-4548-bc14-3e7698518a5a</tstamps>
+    </comp>
+    <comp ref="CHG0">
+      <value>ORANGE</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:CHIPLED_0805_NOOUTLINE</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_LED0805_NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cbbd887-e032-4e12-ae03-9343e2092244</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>RED</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:CHIPLED_0805_NOOUTLINE</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_LED0805_NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>402909f6-d105-4a08-990a-7d31fe090130</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>MBR120</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:SOD-123</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_DIODE-SCHOTTKYSOD-123" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32a139cc-ecb7-48ad-9807-fb21d3b0838a</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>CP2104</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:QFN24_4MM_SMSC</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_CP2104" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5cc5405-bc95-4ee9-9d2d-d47f270e6233 f0b5efd0-eda9-41ce-b460-4a3eb2a9f76a</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>HEADER-1X16_MIN</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:1X16_ROUND_MIN</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_HEADER-1X16_MIN" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>141aea2e-0e50-4f08-a252-5a95ef92e7db</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>HEADER-1X12_MIN</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:1X12_ROUND_MIN</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_HEADER-1X12_MIN" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1024af3d-7a30-4e5e-8d18-f70c8bc54a3d</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>mmbt2222</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:SOT23-3</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="SparkFun_TRANSISTOR_NPNSOT23-3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c087a89-905a-449e-8e55-6c0e18f2121f</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>mmbt2222</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:SOT23-3</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="SparkFun_TRANSISTOR_NPNSOT23-3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f2e6de9-e8b5-4ce6-b790-4c208384974a</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>DMG3415U</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:SOT23-R</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_MOSFET-P" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0673a961-2217-4fd0-b833-06948890d1e1</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100K</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:0603-NO</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebea73fa-1bc3-4e02-949a-4bf073024554</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:0603-NO</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7262988-318a-4203-b429-bb7c3cb6d782</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100K</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:0603-NO</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4bb7512-f681-4781-8e3b-b66fe36d14e0</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4.7K</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:0603-NO</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea401106-e8f9-4da5-862f-377a40830afa</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100K</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:0603-NO</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ca753d7-70ce-42ec-b908-a97cc194a08b</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:0603-NO</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d7a4c94-4d34-4079-bc9b-9776e6a1d30e</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100K</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:0603-NO</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ff2e6e2-bcec-4b8b-a3c1-09f989dae956</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:RESPACK_4X0603</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_RESISTOR_4PACK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4fd04c4-9ca3-459f-a47a-827fdae93a37 6a5013d5-baf6-41e3-8ef3-dd7e745ec211 233815a4-c89b-42e0-bd39-a0a4bf456e5d</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>KMR2</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:BTN_KMR2_4.6X2.8</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_SWITCH_TACT_SMT4.6X2.8" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7f76875-57f8-4f35-a856-aacb7f4821a1</tstamps>
+    </comp>
+    <comp ref="U$31">
+      <value>MOUNTINGHOLE2.5</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:MOUNTINGHOLE_2.5_PLATED</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_MOUNTINGHOLE2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95621f01-e542-405c-944f-0296dd698509</tstamps>
+    </comp>
+    <comp ref="U$32">
+      <value>MOUNTINGHOLE2.5</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:MOUNTINGHOLE_2.5_PLATED</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_MOUNTINGHOLE2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1285e47d-ec76-4609-bf78-8575eefbcc21</tstamps>
+    </comp>
+    <comp ref="U$34">
+      <value>FIDUCIAL_1MM</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:FIDUCIAL_1MM</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_FIDUCIAL_1MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fbf3624-332b-477f-b5a7-6504a7303417</tstamps>
+    </comp>
+    <comp ref="U$35">
+      <value>FIDUCIAL_1MM</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:FIDUCIAL_1MM</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_FIDUCIAL_1MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>121912cd-e4de-411c-9558-c5396f6a3af2</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AP2112-3.3</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:SOT23-5</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_VREG_SOT23-5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74284d0b-2f41-43ce-94f4-1f5d6e80fbf1</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MCP73831T-2ACI/OT</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:SOT23-5</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_MCP73831/2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77b59f07-5c21-4258-b1ae-882c124b7048</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>JSTPH</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:JSTPH2</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_CON_JST_PH_2PIN" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ecbc553-d670-4706-911e-93906954cead</tstamps>
+    </comp>
+    <comp ref="X2">
+      <value>ESP32_WROOM32_SKINNY</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:WROOM32_SKINNY</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_ESP32_WROOM32_SKINNY" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf67d960-06bd-49a0-a6d9-7b621c3f5a2b</tstamps>
+    </comp>
+    <comp ref="X4">
+      <value>20329</value>
+      <footprint>Adafruit HUZZAH32 ESP32 Feather:4UCONN_20329_V2</footprint>
+      <libsource lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_USB_MICRO_20329_V2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Adafruit HUZZAH32 ESP32 Feather.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed25ad58-f40e-4799-92cc-e45803c190d7</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1.0UF-0603-16V-10%-X7R</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0603</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="1.0UF-0603-16V-10%-X7R" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>fa4d21c5-b2ad-4237-98bb-a1749b1587fa</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1UF-0603-25V-5%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0603</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="0.1UF-0603-25V-5%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>1f296697-ca56-4360-8a5f-e706eb62ae2a</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1UF-0603-25V-5%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0603</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="0.1UF-0603-25V-5%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>8335b0e9-7767-4fd3-b68d-af1a7d2e0ef2</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1.0UF-0603-16V-10%-X7R</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0603</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="1.0UF-0603-16V-10%-X7R" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>bb946e00-fc94-435e-8157-7865008c4a84</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:LED-0603</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="LED-RED0603" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>d45b3618-b0df-4e7f-af6a-1e5768e53549</tstamps>
+    </comp>
+    <comp ref="FD1">
+      <value>FIDUCIAL1X2</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:FIDUCIAL-1X2</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="FIDUCIAL1X2" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>f7c6c4f5-5e84-41d5-bbef-e924dda38ca5</tstamps>
+    </comp>
+    <comp ref="FD2">
+      <value>FIDUCIAL1X2</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:FIDUCIAL-1X2</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="FIDUCIAL1X2" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>b488fbe4-2e80-4ca7-9282-f261f160721a</tstamps>
+    </comp>
+    <comp ref="FD3">
+      <value>FIDUCIAL1X2</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:FIDUCIAL-1X2</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="FIDUCIAL1X2" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>898a47f0-a860-4c21-bc46-9cb8f1d3e4b6</tstamps>
+    </comp>
+    <comp ref="FD4">
+      <value>FIDUCIAL1X2</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:FIDUCIAL-1X2</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="FIDUCIAL1X2" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>2beefcd3-381b-4c4b-931c-7ebba3b67703</tstamps>
+    </comp>
+    <comp ref="FRAME1">
+      <value>FRAME-LEDGER</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:CREATIVE_COMMONS</footprint>
+      <fields>
+        <field name="DESIGNER">Owen Lyke</field>
+        <field name="REV">v31</field>
+      </fields>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="FRAME-LEDGER" description=""/>
+      <property name="DESIGNER" value="Owen Lyke"/>
+      <property name="REV" value="v31"/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>97f3fb42-ad9c-480f-879b-719d66f3acc1 8d8f028c-6eae-476f-97f9-981ce05126d5</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>STAND-OFF</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:STAND-OFF</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="STAND-OFF" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>75493e60-29ee-48b7-9194-e37204cd3f98</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>STAND-OFF</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:STAND-OFF</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="STAND-OFF" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>695d1a85-60b6-473a-9032-d72abac3e88b</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>STAND-OFF</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:STAND-OFF</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="STAND-OFF" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>70d550bc-0507-4f39-b54c-9c2f779438e4</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>STAND-OFF</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:STAND-OFF</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="STAND-OFF" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>8eb708b5-c83d-46d3-a2fe-dc14d55e0e17</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>QWIIC_CONNECTORJS-1MM</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:JST04_1MM_RA</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="QWIIC_CONNECTORJS-1MM" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>e6193f53-7fdc-4fa1-b55e-440597478231</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>QWIIC_CONNECTORJS-1MM</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:JST04_1MM_RA</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="QWIIC_CONNECTORJS-1MM" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>736d0c0b-9bd9-4253-8628-a44499e71172</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_06NO_SILK_NO_POP</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:1X06_NO_SILK</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="CONN_06NO_SILK_NO_POP" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>dad3a185-cadd-455a-804f-34fcd4110916</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_06NO_SILK_NO_POP</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:1X06_NO_SILK</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="CONN_06NO_SILK_NO_POP" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>eb53ebce-71aa-494d-b3d1-3c2d515bb2c2</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>JUMPER-SMT_2_NC_TRACE_SILK</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:SMT-JUMPER_2_NC_TRACE_SILK</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="JUMPER-SMT_2_NC_TRACE_SILK" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>f28bbe04-2940-476b-93c5-2ec99c3d4c70</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>JUMPER-SMT_3_2-NC_TRACE_SILK</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:SMT-JUMPER_3_2-NC_TRACE_SILK</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="JUMPER-SMT_3_2-NC_TRACE_SILK" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>d7937bb5-1605-40bf-a135-62cd934092c1</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>JUMPER-SMT_2_NO_SILK</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:SMT-JUMPER_2_NO_SILK</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="JUMPER-SMT_2_NO_SILK" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>80c7ccf2-c518-4f66-a45f-217c8288d2e3</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>JUMPER-SMT_3_2-NC_TRACE_SILK</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:SMT-JUMPER_3_2-NC_TRACE_SILK</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="JUMPER-SMT_3_2-NC_TRACE_SILK" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>a36efb4f-32da-4120-8063-791f087c51bf</tstamps>
+    </comp>
+    <comp ref="LOGO1">
+      <value>SFE_LOGO_NAME_FLAME.1_INCH</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:SFE_LOGO_NAME_FLAME_.1</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="SFE_LOGO_NAME_FLAME.1_INCH" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>4c2a7e71-1ee1-45f1-9970-6b92967ffb73</tstamps>
+    </comp>
+    <comp ref="LOGO2">
+      <value>OSHW-LOGOMINI</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:OSHW-LOGO-MINI</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="OSHW-LOGOMINI" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>039bf069-02ca-4c18-adb4-01fd8a2e5479</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>MOSFET-NCH-RE1C002UN</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:SOT-416FL</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="MOSFET-NCH-RE1C002UN" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>c4b59de6-fc98-4446-a6e3-6ba93184f75f</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>MOSFET-NCH-RE1C002UN</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:SOT-416FL</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="MOSFET-NCH-RE1C002UN" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>edf73688-0ea4-42a7-a3ce-214715a76ff6</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>MOSFET-NCH-RE1C002UN</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:SOT-416FL</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="MOSFET-NCH-RE1C002UN" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>b68479ab-342b-4b74-a323-f5eef494c4cd</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>MOSFET-NCH-RE1C002UN</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:SOT-416FL</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="MOSFET-NCH-RE1C002UN" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>bbcd706d-bdd4-4f4c-b16c-cb6bdf026c7f</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>MOSFET-NCH-RE1C002UN</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:SOT-416FL</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="MOSFET-NCH-RE1C002UN" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>aaebec94-0eab-4c9d-9217-456a656a5036</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>MOSFET-NCH-RE1C002UN</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:SOT-416FL</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="MOSFET-NCH-RE1C002UN" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>68badd77-732f-4a45-a920-a93cdd3de243</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>MOSFET-NCH-RE1C002UN</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:SOT-416FL</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="MOSFET-NCH-RE1C002UN" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>f85af38b-5f81-4b5d-9744-a91604ffddd8</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>MOSFET-NCH-RE1C002UN</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:SOT-416FL</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="MOSFET-NCH-RE1C002UN" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>c76cd7c5-154c-4ccc-8d17-55e7b6e9f6a4</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>4f5ba651-c4f4-4786-9a6b-046206d2a745</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>4102bc20-1928-4e63-b483-4bba7bb70150</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>d67b5159-0a19-4377-823c-30f8ba815032</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>220OHM-0603-1/10W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0603</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="220OHM-0603-1/10W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>0203f290-3b7d-413b-8661-e14ae4e0dcb3</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>94b3fc88-953f-4915-bcb6-78f0738a7aac</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>4b8b2fc6-8909-406e-88b0-72f1ac37c73e</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>505f9524-5da5-4e0a-9b51-f9933cd2fc66</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>9a7555d4-45e0-4e44-99bf-1e89342774bc</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>2d97d16a-6496-417e-be9e-b1f48428c568</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>4d16dd60-afc2-47b0-ae2e-337a50ef494b</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>a6488313-ee34-4104-b77e-478a20d09a02</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>f32477e1-d0e9-49b8-9064-3044843e904c</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>8207d42b-169b-409c-af5e-039a9adeec5c</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>d604d1fa-18c9-4aff-896c-1a24b47bc58b</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>a90bc434-bc83-4a0d-bbf8-322c4ed6fe87</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>ccb5a024-6c97-491d-8c08-8bb0148f9df9</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>2.2KOHM-0402T-1/16W-1%</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>f047edcf-e6a5-4f67-b5f2-2a0c822d3391</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TEST-POINT3</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:PAD.03X.03</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="TEST-POINT3" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>fb80baf4-d7de-46d8-b7ec-c1cd0dbf0b20</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ICM-20948</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:QFN24-3X3</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="ICM-20948" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>b730d3bd-3a99-40d4-8b0b-3dad13a6b4e0</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>V_REG_SP6214-1.8V</value>
+      <footprint>SparkFun_IMU_Breakout_ICM-20948:SC70</footprint>
+      <libsource lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="V_REG_SP6214-1.8V" description=""/>
+      <property name="Sheetname" value="ICM"/>
+      <property name="Sheetfile" value="ICM.kicad_sch"/>
+      <sheetpath names="/ICM/" tstamps="/596a0d2f-0252-4c4c-ab39-0390f0025580/"/>
+      <tstamps>3d208af3-0a10-43d2-b43d-81d44232df52</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>SparkFun_HX711_Load_Cell:0603-CAP</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="0.1UF-25V-5%(0603)" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>75c3a7b0-7632-466c-a4c2-9f4aea7db8bf</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>SparkFun_HX711_Load_Cell:0603-CAP</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="0.1UF-25V-5%(0603)" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>3f4996ee-6157-450a-b2f5-aa7b1fdc77f2</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>SparkFun_HX711_Load_Cell:1210</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="10UF50V20%(1210)" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>366a9af6-e398-412e-8d15-681c1a8c4587</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>SparkFun_HX711_Load_Cell:0603-CAP</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="0.1UF-25V-5%(0603)" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>fc79afb2-4bed-4176-8678-e49c7e441f1f</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>SparkFun_HX711_Load_Cell:1210</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="10UF50V20%(1210)" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>7aa2f541-c2fa-461d-a192-19d4e0b4819f</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>SparkFun_HX711_Load_Cell:0603-CAP</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="0.1UF-25V-5%(0603)" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>ab581ebe-a0a5-437a-847c-c1b322ef9fe1</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>SparkFun_HX711_Load_Cell:0603-CAP</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="0.1UF-25V-5%(0603)" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>68f76ff9-36c2-4caf-8e94-1a50e4fc37d3</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>FIDUCIAL1X2</value>
+      <footprint>SparkFun_HX711_Load_Cell:FIDUCIAL-1X2</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="FIDUCIAL1X2" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>ae97898c-0376-476e-a073-29862b933f25</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>FIDUCIAL1X2</value>
+      <footprint>SparkFun_HX711_Load_Cell:FIDUCIAL-1X2</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="FIDUCIAL1X2" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>e302b667-0976-4d52-a45c-5cd3b203e836</tstamps>
+    </comp>
+    <comp ref="FRAME2">
+      <value>FRAME-LETTER</value>
+      <footprint>SparkFun_HX711_Load_Cell:CREATIVE_COMMONS</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="FRAME-LETTER" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>748a82be-2db6-406a-b57b-a7acdbeb77ea 5ce456d0-81fe-48ee-87ac-aafa5884e89e</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>M05PTH</value>
+      <footprint>SparkFun_HX711_Load_Cell:1X05</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="M05PTH" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>4d77e6b2-3040-4422-ac86-071df22a6c19</tstamps>
+    </comp>
+    <comp ref="JP7">
+      <value>M05PTH</value>
+      <footprint>SparkFun_HX711_Load_Cell:1X05</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="M05PTH" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>b1946588-a2e6-4d33-be4e-0d38f96af305</tstamps>
+    </comp>
+    <comp ref="JP8">
+      <value>M02PTH</value>
+      <footprint>SparkFun_HX711_Load_Cell:1X02</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="M02PTH" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>eaa62613-699c-4898-9afe-012d52ab56da</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>3.3uH</value>
+      <footprint>SparkFun_HX711_Load_Cell:0805</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="INDUCTOR0805-IND" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>f275f46a-aef2-40e6-ba9f-0d969563562d</tstamps>
+    </comp>
+    <comp ref="LOGO3">
+      <value>SFE_LOGO_NAME_FLAME.1_INCH</value>
+      <footprint>SparkFun_HX711_Load_Cell:SFE_LOGO_NAME_FLAME_.1</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="SFE_LOGO_NAME_FLAME.1_INCH" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>5fa7c58b-9e3e-481b-adc3-b5b69acfc81c</tstamps>
+    </comp>
+    <comp ref="LOGO4">
+      <value>SFE_LOGO_FLAME.1_INCH</value>
+      <footprint>SparkFun_HX711_Load_Cell:SFE_LOGO_FLAME_.1</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="SFE_LOGO_FLAME.1_INCH" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>4c6eada2-3d83-4176-b38e-cd238cf1b2a6</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>MMBT4403</value>
+      <footprint>SparkFun_HX711_Load_Cell:SOT23-3</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="TRANSISTOR_PNPMMBT4403" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>a7d30355-1c3a-4c6b-8740-898450132a67</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>20k</value>
+      <footprint>SparkFun_HX711_Load_Cell:0603-RES</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="20KOHM1/10W1%(0603)" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>ffd3ab50-a61f-4cf9-bfaf-3b812f5bb510</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>8.2K</value>
+      <footprint>SparkFun_HX711_Load_Cell:0603-RES</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="8.2KOHM-1/10W-5%(0603)" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>2c07baa6-6ae4-419f-8137-587251df2804</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>100</value>
+      <footprint>SparkFun_HX711_Load_Cell:0603-RES</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="100OHM-1/10W-1%(0603)" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>754876f7-858b-49f2-b286-8ae93021de92</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>100</value>
+      <footprint>SparkFun_HX711_Load_Cell:0603-RES</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="100OHM-1/10W-1%(0603)" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>745fafe3-80c6-41e7-8942-a78c6bce51b7</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10K</value>
+      <footprint>SparkFun_HX711_Load_Cell:0603-RES</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="10KOHM-1/10W-1%(0603)0603" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>ca31b9f1-6174-4bed-b6c8-655b2cf6d39e</tstamps>
+    </comp>
+    <comp ref="SJ1">
+      <value>JUMPER-PAD-2-NC_BY_TRACE</value>
+      <footprint>SparkFun_HX711_Load_Cell:PAD-JUMPER-2-NC_BY_TRACE_YES_SILK</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="JUMPER-PAD-2-NC_BY_TRACE" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>980c92ca-33d2-4149-b370-ca1dd95c5baa</tstamps>
+    </comp>
+    <comp ref="STANDOFF1">
+      <value>STAND-OFF</value>
+      <footprint>SparkFun_HX711_Load_Cell:STAND-OFF</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="STAND-OFF" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>e95c0e24-1a37-4743-8e01-eb7f47ac26d7</tstamps>
+    </comp>
+    <comp ref="STANDOFF2">
+      <value>STAND-OFF</value>
+      <footprint>SparkFun_HX711_Load_Cell:STAND-OFF</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="STAND-OFF" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>b8512676-2763-4279-b682-c11611c06785</tstamps>
+    </comp>
+    <comp ref="STANDOFF3">
+      <value>STAND-OFF</value>
+      <footprint>SparkFun_HX711_Load_Cell:STAND-OFF</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="STAND-OFF" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>697528b2-47ae-475a-9f92-d425f1b3019c</tstamps>
+    </comp>
+    <comp ref="STANDOFF4">
+      <value>STAND-OFF</value>
+      <footprint>SparkFun_HX711_Load_Cell:STAND-OFF</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="STAND-OFF" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>153f287d-1e32-423a-bd90-360f8c620504</tstamps>
+    </comp>
+    <comp ref="U$1">
+      <value>REVISION</value>
+      <footprint>SparkFun_HX711_Load_Cell:REVISION</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="REVISION" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>3b7b8faf-e9ad-433b-90e4-6c9e4b313cac</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>OSHW-LOGOS</value>
+      <footprint>SparkFun_HX711_Load_Cell:OSHW-LOGO-S</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="OSHW-LOGOS" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>871aafb7-bfb2-4c57-ac75-fb72488b50b2</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>HX711HX711</value>
+      <footprint>SparkFun_HX711_Load_Cell:SO16</footprint>
+      <libsource lib="SparkFun_HX711_Load_Cell-eagle-import" part="HX711HX711" description=""/>
+      <property name="Sheetname" value="HX711"/>
+      <property name="Sheetfile" value="HX_711.kicad_sch"/>
+      <sheetpath names="/HX711/" tstamps="/d80eb16a-130c-4dac-9caa-70b8cea5979f/"/>
+      <tstamps>fb3b8ab3-4588-4a57-9a4b-8ff878c3aeb3</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="SparkFun_TRANSISTOR_NPNSOT23-3">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:SOT23-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_CAP_CERAMIC0603_NO">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:0603-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_CAP_CERAMIC0805-NOOUTLINE">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:0805-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_CON_JST_PH_2PIN">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:JSTPH2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_CP2104">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:QFN24_4MM_SMSC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RI" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="D-" type="bidirectional"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="REGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="power_in"/>
+        <pin num="9" name="#RST" type="bidirectional"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="GPIO3" type="bidirectional"/>
+        <pin num="12" name="GPIO2" type="bidirectional"/>
+        <pin num="13" name="GPIO1/RXLED" type="bidirectional"/>
+        <pin num="14" name="GPIO0/TXLED" type="bidirectional"/>
+        <pin num="15" name="#SUSPEND" type="output"/>
+        <pin num="16" name="VPP" type="bidirectional"/>
+        <pin num="17" name="SUSPEND" type="output"/>
+        <pin num="18" name="CTS" type="input"/>
+        <pin num="19" name="RTS" type="output"/>
+        <pin num="20" name="RXD" type="input"/>
+        <pin num="21" name="TXD" type="output"/>
+        <pin num="22" name="DSR" type="input"/>
+        <pin num="23" name="DTR" type="output"/>
+        <pin num="24" name="DCD" type="input"/>
+        <pin num="THERM" name="TP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_DIODE-SCHOTTKYSOD-123">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_ESP32_WROOM32_SKINNY">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:WROOM32_SKINNY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="3.3V" type="passive"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="IO36/SEN_VP/A1_0" type="passive"/>
+        <pin num="5" name="IO39/SEN_VN/A1_3" type="passive"/>
+        <pin num="6" name="I34/A1_6" type="bidirectional"/>
+        <pin num="7" name="I35/A1_7" type="bidirectional"/>
+        <pin num="8" name="IO32/A1_4/X32P" type="bidirectional"/>
+        <pin num="9" name="IO33/A1_5/X32N" type="bidirectional"/>
+        <pin num="10" name="IO25/DAC1/A2_8" type="bidirectional"/>
+        <pin num="11" name="IO26/DAC2/A2_9" type="bidirectional"/>
+        <pin num="12" name="IO27/A2_7" type="bidirectional"/>
+        <pin num="13" name="IO14/A2_6" type="bidirectional"/>
+        <pin num="14" name="IO12/A2_5" type="bidirectional"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="IO13/A2_4" type="bidirectional"/>
+        <pin num="17" name="SD2" type="bidirectional"/>
+        <pin num="18" name="SD3" type="bidirectional"/>
+        <pin num="19" name="CMD" type="bidirectional"/>
+        <pin num="20" name="CLK" type="bidirectional"/>
+        <pin num="21" name="SD0" type="bidirectional"/>
+        <pin num="22" name="SD1" type="bidirectional"/>
+        <pin num="23" name="IO15/A2_3" type="bidirectional"/>
+        <pin num="24" name="IO2/A2_2" type="bidirectional"/>
+        <pin num="25" name="IO0/A2_1" type="bidirectional"/>
+        <pin num="26" name="IO4/A2_0" type="bidirectional"/>
+        <pin num="27" name="IO16" type="bidirectional"/>
+        <pin num="28" name="IO17" type="bidirectional"/>
+        <pin num="29" name="IO5" type="bidirectional"/>
+        <pin num="30" name="IO18" type="bidirectional"/>
+        <pin num="31" name="IO19" type="bidirectional"/>
+        <pin num="33" name="IO21" type="bidirectional"/>
+        <pin num="34" name="RXD0" type="input"/>
+        <pin num="35" name="TXD0" type="output"/>
+        <pin num="36" name="IO22" type="bidirectional"/>
+        <pin num="37" name="IO23" type="bidirectional"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="P$1" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_FIDUCIAL_1MM">
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:FIDUCIAL_1MM</field>
+      </fields>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_HEADER-1X12_MIN">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:1X12_ROUND_MIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_HEADER-1X16_MIN">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:1X16_ROUND_MIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_LED0805_NOOUTLINE">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:CHIPLED_0805_NOOUTLINE</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_MCP73831/2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:SOT23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_in"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_MOSFET-P">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:SOT23-R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_MOUNTINGHOLE2.5">
+      <fields>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:MOUNTINGHOLE_2.5_PLATED</field>
+      </fields>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_RESISTOR_0603_NOOUT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:0603-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_RESISTOR_4PACK">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:RESPACK_4X0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="1" type="passive"/>
+        <pin num="4" name="1" type="passive"/>
+        <pin num="5" name="2" type="passive"/>
+        <pin num="6" name="2" type="passive"/>
+        <pin num="7" name="2" type="passive"/>
+        <pin num="8" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_SWITCH_TACT_SMT4.6X2.8">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:BTN_KMR2_4.6X2.8</field>
+      </fields>
+      <pins>
+        <pin num="A" name="P" type="passive"/>
+        <pin num="A'" name="P1" type="passive"/>
+        <pin num="B" name="S" type="passive"/>
+        <pin num="B'" name="S1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_USB_MICRO_20329_V2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:4UCONN_20329_V2</field>
+      </fields>
+      <pins>
+        <pin num="BASE@1" name="GND" type="power_in"/>
+        <pin num="BASE@2" name="GND" type="power_in"/>
+        <pin num="D+" name="D+" type="bidirectional"/>
+        <pin num="D-" name="D-" type="bidirectional"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="ID" name="ID" type="bidirectional"/>
+        <pin num="SPRT@1" name="GND" type="power_in"/>
+        <pin num="SPRT@2" name="GND" type="power_in"/>
+        <pin num="SPRT@3" name="GND" type="power_in"/>
+        <pin num="SPRT@4" name="GND" type="power_in"/>
+        <pin num="VBUS" name="VBUS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit HUZZAH32 ESP32 Feather-eagle-import" part="microbuilder_VREG_SOT23-5">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Adafruit HUZZAH32 ESP32 Feather:SOT23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="P4" type="bidirectional"/>
+        <pin num="5" name="OUT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="0.1UF-25V-5%(0603)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:0603-CAP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="100OHM-1/10W-1%(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:0603-RES</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="10KOHM-1/10W-1%(0603)0603">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:0603-RES</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="10UF50V20%(1210)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:1210</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="20KOHM1/10W1%(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:0603-RES</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="8.2KOHM-1/10W-5%(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:0603-RES</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="FIDUCIAL1X2">
+      <fields>
+        <field name="Reference">FD</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:FIDUCIAL-1X2</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="FRAME-LETTER">
+      <fields>
+        <field name="Reference">FRAME</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:CREATIVE_COMMONS</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="HX711HX711">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:SO16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSUP" type="bidirectional"/>
+        <pin num="2" name="BASE" type="bidirectional"/>
+        <pin num="3" name="AVDD" type="bidirectional"/>
+        <pin num="4" name="VFB" type="bidirectional"/>
+        <pin num="5" name="AGND" type="bidirectional"/>
+        <pin num="6" name="VBG" type="bidirectional"/>
+        <pin num="7" name="INA-" type="bidirectional"/>
+        <pin num="8" name="INA+" type="bidirectional"/>
+        <pin num="9" name="INB-" type="bidirectional"/>
+        <pin num="10" name="INB+" type="bidirectional"/>
+        <pin num="11" name="PD_SCK" type="bidirectional"/>
+        <pin num="12" name="DOUT" type="bidirectional"/>
+        <pin num="13" name="XO" type="bidirectional"/>
+        <pin num="14" name="XI" type="bidirectional"/>
+        <pin num="15" name="RATE" type="bidirectional"/>
+        <pin num="16" name="DVDD" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="INDUCTOR0805-IND">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="JUMPER-PAD-2-NC_BY_TRACE">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:PAD-JUMPER-2-NC_BY_TRACE_YES_SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="M02PTH">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:1X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="M05PTH">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:1X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="OSHW-LOGOS">
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:OSHW-LOGO-S</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="REVISION">
+      <fields>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:REVISION</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="SFE_LOGO_FLAME.1_INCH">
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:SFE_LOGO_FLAME_.1</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="SFE_LOGO_NAME_FLAME.1_INCH">
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:SFE_LOGO_NAME_FLAME_.1</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="STAND-OFF">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:STAND-OFF</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun_HX711_Load_Cell-eagle-import" part="TRANSISTOR_PNPMMBT4403">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Footprint">SparkFun_HX711_Load_Cell:SOT23-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="0.1UF-0603-25V-5%">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="1.0UF-0603-16V-10%-X7R">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="2.2KOHM-0402T-1/16W-1%">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:0402-TIGHT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="220OHM-0603-1/10W-1%">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="CONN_06NO_SILK_NO_POP">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:1X06_NO_SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="FIDUCIAL1X2">
+      <fields>
+        <field name="Reference">FD</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:FIDUCIAL-1X2</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="FRAME-LEDGER">
+      <fields>
+        <field name="Reference">FRAME</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:CREATIVE_COMMONS</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="ICM-20948">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:QFN24-3X3</field>
+      </fields>
+      <pins>
+        <pin num="7" name="AUX_CL" type="bidirectional"/>
+        <pin num="8" name="VDDIO" type="bidirectional"/>
+        <pin num="9" name="AD0/SDO" type="bidirectional"/>
+        <pin num="10" name="REGOUT" type="bidirectional"/>
+        <pin num="11" name="FSYNC" type="bidirectional"/>
+        <pin num="12" name="INT" type="bidirectional"/>
+        <pin num="13" name="VDD" type="bidirectional"/>
+        <pin num="18" name="GND" type="bidirectional"/>
+        <pin num="20" name="GND" type="bidirectional"/>
+        <pin num="21" name="AUX_DA" type="bidirectional"/>
+        <pin num="22" name="~{CS}" type="bidirectional"/>
+        <pin num="23" name="SCL/SCLK" type="bidirectional"/>
+        <pin num="24" name="SDA/SDI" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="JUMPER-SMT_2_NC_TRACE_SILK">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:SMT-JUMPER_2_NC_TRACE_SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="JUMPER-SMT_2_NO_SILK">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:SMT-JUMPER_2_NO_SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="JUMPER-SMT_3_2-NC_TRACE_SILK">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:SMT-JUMPER_3_2-NC_TRACE_SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="LED-RED0603">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:LED-0603</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="MOSFET-NCH-RE1C002UN">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:SOT-416FL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="bidirectional"/>
+        <pin num="2" name="S" type="bidirectional"/>
+        <pin num="3" name="D" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="OSHW-LOGOMINI">
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:OSHW-LOGO-MINI</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="QWIIC_CONNECTORJS-1MM">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:JST04_1MM_RA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_in"/>
+        <pin num="2" name="2" type="power_in"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="SFE_LOGO_NAME_FLAME.1_INCH">
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:SFE_LOGO_NAME_FLAME_.1</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="STAND-OFF">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:STAND-OFF</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="TEST-POINT3">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:PAD.03X.03</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun_IMU_Breakout_ICM-20948-eagle-import" part="V_REG_SP6214-1.8V">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">SparkFun_IMU_Breakout_ICM-20948:SC70</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Adafruit HUZZAH32 ESP32 Feather-eagle-import">
+      <uri>C:\Users\andre\OneDrive\Desktop\Smart_sip\Smart-Sip-HW\controller/Adafruit HUZZAH32 ESP32 Feather-eagle-import.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/A0_DAC2">
+      <node ref="JP1" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="X2" pin="11" pinfunction="IO26/DAC2/A2_9" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/A1_DAC1">
+      <node ref="JP1" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="X2" pin="10" pinfunction="IO25/DAC1/A2_8" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/A2_I34">
+      <node ref="JP1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="X2" pin="6" pinfunction="I34/A1_6" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/A3_I39">
+      <node ref="JP1" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="X2" pin="5" pinfunction="IO39/SEN_VN/A1_3" pintype="passive"/>
+    </net>
+    <net code="5" name="/A4_IO36">
+      <node ref="JP1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="X2" pin="4" pinfunction="IO36/SEN_VP/A1_0" pintype="passive"/>
+    </net>
+    <net code="6" name="/A5_IO4">
+      <node ref="JP1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="X2" pin="26" pinfunction="IO4/A2_0" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/A13_I35">
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="X2" pin="7" pinfunction="I35/A1_7" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/DTR">
+      <node ref="IC1" pin="23" pinfunction="DTR" pintype="output"/>
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R13" pin="4" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/EN">
+      <node ref="JP3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="10" name="/GPIO0">
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="X2" pin="25" pinfunction="IO0/A2_1" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/GPIO2">
+      <node ref="X2" pin="24" pinfunction="IO2/A2_2" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/HX711/A+">
+      <node ref="JP7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R29" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/HX711/A-">
+      <node ref="JP7" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R28" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/HX711/AVDD">
+      <node ref="C12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP7" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="/HX711/B+">
+      <node ref="JP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="INB+" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/HX711/B-">
+      <node ref="JP8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="9" pinfunction="INB-" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/HX711/DAT">
+      <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="DOUT" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/HX711/SCK">
+      <node ref="J5" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="PD_SCK" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/ICM/AD0{slash}SDO">
+      <node ref="Q7" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="R15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="AD0/SDO" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/ICM/AD0{slash}SDO_VIN">
+      <node ref="J3" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="JP5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="R17" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="/ICM/AUX_CL">
+      <node ref="Q6" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="AUX_CL" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/ICM/AUX_CL_VIN">
+      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="R16" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="23" name="/ICM/AUX_DA">
+      <node ref="Q4" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="AUX_DA" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/ICM/AUX_DA_VIN">
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="25" name="/ICM/FSYNC">
+      <node ref="Q8" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="R18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="FSYNC" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/ICM/FSYNC_VIN">
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="R20" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="27" name="/ICM/INT">
+      <node ref="Q10" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="R22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="INT" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/ICM/INT_VIN">
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q10" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="R24" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="29" name="/ICM/SCL{slash}SCLK">
+      <node ref="Q11" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="R23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="SCL/SCLK" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/ICM/SCL{slash}SCLK_VIN">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="Q11" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="R25" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="31" name="/ICM/SDA{slash}SDI">
+      <node ref="Q9" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="R19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="SDA/SDI" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/ICM/SDA{slash}SDI_VIN">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="Q9" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="R21" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="33" name="/ICM/~{CS}">
+      <node ref="Q5" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="~{CS}" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/ICM/~{CS}_VIN">
+      <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="35" name="/IO12_A11">
+      <node ref="JP3" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="X2" pin="14" pinfunction="IO12/A2_5" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/IO13_A12">
+      <node ref="JP3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X2" pin="16" pinfunction="IO13/A2_4" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/IO14_A6">
+      <node ref="JP3" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="X2" pin="13" pinfunction="IO14/A2_6" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/IO15_A8">
+      <node ref="JP3" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="X2" pin="23" pinfunction="IO15/A2_3" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/IO16">
+      <node ref="JP1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="X2" pin="27" pinfunction="IO16" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/IO17">
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="X2" pin="28" pinfunction="IO17" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/IO21">
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X2" pin="33" pinfunction="IO21" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/IO27_A10">
+      <node ref="JP3" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="X2" pin="12" pinfunction="IO27/A2_7" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/IO32_A7">
+      <node ref="JP3" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="X2" pin="8" pinfunction="IO32/A1_4/X32P" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/IO33_A9">
+      <node ref="JP3" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="X2" pin="9" pinfunction="IO33/A1_5/X32N" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/MISO">
+      <node ref="JP1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="X2" pin="31" pinfunction="IO19" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/MOSI">
+      <node ref="JP1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="X2" pin="30" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/RESET">
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP1" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R13" pin="6" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="B" pinfunction="S" pintype="passive"/>
+      <node ref="SW2" pin="B'" pinfunction="S1" pintype="passive"/>
+      <node ref="X2" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="48" name="/RTS">
+      <node ref="IC1" pin="19" pinfunction="RTS" pintype="output"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R13" pin="7" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="49" name="/RXD0">
+      <node ref="IC1" pin="21" pinfunction="TXD" pintype="output"/>
+      <node ref="X2" pin="34" pinfunction="RXD0" pintype="input"/>
+    </net>
+    <net code="50" name="/SCK">
+      <node ref="JP1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="X2" pin="29" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/SCL">
+      <node ref="JP3" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="X2" pin="36" pinfunction="IO22" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/SDA">
+      <node ref="JP3" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="X2" pin="37" pinfunction="IO23" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/TXD0">
+      <node ref="IC1" pin="20" pinfunction="RXD" pintype="input"/>
+      <node ref="X2" pin="35" pinfunction="TXD0" pintype="output"/>
+    </net>
+    <net code="54" name="1.8V">
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="Q10" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="Q11" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="Q4" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="Q5" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="Q6" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="Q7" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="Q8" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="Q9" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="R14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R22" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R23" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP1" pin="P$1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="U1" pin="13" pinfunction="VDD" pintype="bidirectional"/>
+      <node ref="U1" pin="8" pinfunction="VDDIO" pintype="bidirectional"/>
+      <node ref="U4" pin="5" pinfunction="OUT" pintype="passive"/>
+    </net>
+    <net code="55" name="3.3V">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="VIO" pintype="power_in"/>
+      <node ref="IC1" pin="6" pinfunction="VDD" pintype="power_in"/>
+      <node ref="IC1" pin="7" pinfunction="REGIN" pintype="power_in"/>
+      <node ref="JP1" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="R13" pin="3" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="OUT" pintype="power_in"/>
+      <node ref="X2" pin="2" pinfunction="3.3V" pintype="passive"/>
+    </net>
+    <net code="56" name="GND">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D3" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC1" pin="THERM" pinfunction="TP" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="power_in"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="power_in"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="JP1" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP7" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SJ1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="A" pinfunction="P" pintype="passive"/>
+      <node ref="SW2" pin="A'" pinfunction="P1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U1" pin="20" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="U6" pin="14" pinfunction="XI" pintype="bidirectional"/>
+      <node ref="U6" pin="5" pinfunction="AGND" pintype="bidirectional"/>
+      <node ref="X1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X2" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="X2" pin="15" pinfunction="GND" pintype="passive"/>
+      <node ref="X2" pin="38" pinfunction="GND" pintype="passive"/>
+      <node ref="X2" pin="P$1" pinfunction="GND" pintype="passive"/>
+      <node ref="X4" pin="BASE@1" pinfunction="GND" pintype="power_in"/>
+      <node ref="X4" pin="BASE@2" pinfunction="GND" pintype="power_in"/>
+      <node ref="X4" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="X4" pin="SPRT@1" pinfunction="GND" pintype="power_in"/>
+      <node ref="X4" pin="SPRT@2" pinfunction="GND" pintype="power_in"/>
+      <node ref="X4" pin="SPRT@3" pinfunction="GND" pintype="power_in"/>
+      <node ref="X4" pin="SPRT@4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="57" name="Net-(CHG0-PadC)">
+      <node ref="CHG0" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D1-PadC)">
+      <node ref="D1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D3-PadA)">
+      <node ref="D3" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(IC1A-D+)">
+      <node ref="IC1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="X4" pin="D+" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="Net-(IC1A-D-)">
+      <node ref="IC1" pin="4" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="X4" pin="D-" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(JP4-Pad1)">
+      <node ref="JP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(JP4-Pad3)">
+      <node ref="JP4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(JP6-Pad1)">
+      <node ref="JP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R21" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(JP6-Pad3)">
+      <node ref="JP6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R25" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(Q1-B)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R13" pin="5" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(Q2-B)">
+      <node ref="Q2" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(Q3-S)">
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D4" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="70" name="Net-(Q12-B)">
+      <node ref="Q12" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="BASE" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="Net-(Q12-C)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q12" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R26" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="AVDD" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="Net-(U1-REGOUT)">
+      <node ref="C10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="REGOUT" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="Net-(U3-PROG)">
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="74" name="Net-(U3-STAT)">
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="STAT" pintype="output"/>
+    </net>
+    <net code="75" name="Net-(U6-INA+)">
+      <node ref="C17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R29" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="INA+" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="Net-(U6-INA-)">
+      <node ref="C17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R28" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="INA-" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="Net-(U6-RATE)">
+      <node ref="R30" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SJ1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="15" pinfunction="RATE" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="Net-(U6-VBG)">
+      <node ref="C18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="VBG" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="Net-(U6-VFB)">
+      <node ref="R26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R27" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="VFB" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="VBAT">
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="X1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="81" name="VBUS">
+      <node ref="CHG0" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="JP3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="X4" pin="VBUS" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="82" name="VCC">
+      <node ref="C15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q12" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R30" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="VSUP" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="VDD">
+      <node ref="C13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="16" pinfunction="DVDD" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="VIN">
+      <node ref="C11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="power_in"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="power_in"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="JP4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JP6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R24" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="IN" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="85" name="unconnected-(IC1A-#RST-Pad9)">
+      <node ref="IC1" pin="9" pinfunction="#RST" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="unconnected-(IC1A-#SUSPEND-Pad15)">
+      <node ref="IC1" pin="15" pinfunction="#SUSPEND" pintype="output"/>
+    </net>
+    <net code="87" name="unconnected-(IC1A-CTS-Pad18)">
+      <node ref="IC1" pin="18" pinfunction="CTS" pintype="input"/>
+    </net>
+    <net code="88" name="unconnected-(IC1A-DCD-Pad24)">
+      <node ref="IC1" pin="24" pinfunction="DCD" pintype="input"/>
+    </net>
+    <net code="89" name="unconnected-(IC1A-DSR-Pad22)">
+      <node ref="IC1" pin="22" pinfunction="DSR" pintype="input"/>
+    </net>
+    <net code="90" name="unconnected-(IC1A-GPIO0{slash}TXLED-Pad14)">
+      <node ref="IC1" pin="14" pinfunction="GPIO0/TXLED" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="unconnected-(IC1A-GPIO1{slash}RXLED-Pad13)">
+      <node ref="IC1" pin="13" pinfunction="GPIO1/RXLED" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="unconnected-(IC1A-GPIO2-Pad12)">
+      <node ref="IC1" pin="12" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="unconnected-(IC1A-GPIO3-Pad11)">
+      <node ref="IC1" pin="11" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="unconnected-(IC1A-NC-Pad10)">
+      <node ref="IC1" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(IC1A-RI-Pad1)">
+      <node ref="IC1" pin="1" pinfunction="RI" pintype="input"/>
+    </net>
+    <net code="96" name="unconnected-(IC1A-SUSPEND-Pad17)">
+      <node ref="IC1" pin="17" pinfunction="SUSPEND" pintype="output"/>
+    </net>
+    <net code="97" name="unconnected-(IC1A-VPP-Pad16)">
+      <node ref="IC1" pin="16" pinfunction="VPP" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="unconnected-(JP1-Pad14)">
+      <node ref="JP1" pin="14" pinfunction="14" pintype="passive"/>
+    </net>
+    <net code="99" name="unconnected-(U2-P4-Pad4)">
+      <node ref="U2" pin="4" pinfunction="P4" pintype="bidirectional"/>
+    </net>
+    <net code="100" name="unconnected-(U4-NC-Pad4)">
+      <node ref="U4" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U6-XO-Pad13)">
+      <node ref="U6" pin="13" pinfunction="XO" pintype="bidirectional"/>
+    </net>
+    <net code="102" name="unconnected-(X2-CLK-Pad20)">
+      <node ref="X2" pin="20" pinfunction="CLK" pintype="bidirectional"/>
+    </net>
+    <net code="103" name="unconnected-(X2-CMD-Pad19)">
+      <node ref="X2" pin="19" pinfunction="CMD" pintype="bidirectional"/>
+    </net>
+    <net code="104" name="unconnected-(X2-SD0-Pad21)">
+      <node ref="X2" pin="21" pinfunction="SD0" pintype="bidirectional"/>
+    </net>
+    <net code="105" name="unconnected-(X2-SD1-Pad22)">
+      <node ref="X2" pin="22" pinfunction="SD1" pintype="bidirectional"/>
+    </net>
+    <net code="106" name="unconnected-(X2-SD2-Pad17)">
+      <node ref="X2" pin="17" pinfunction="SD2" pintype="bidirectional"/>
+    </net>
+    <net code="107" name="unconnected-(X2-SD3-Pad18)">
+      <node ref="X2" pin="18" pinfunction="SD3" pintype="bidirectional"/>
+    </net>
+    <net code="108" name="unconnected-(X4-PadID)">
+      <node ref="X4" pin="ID" pinfunction="ID" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
